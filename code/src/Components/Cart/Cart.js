@@ -1,5 +1,4 @@
-import React from "react";
-import { useContext } from "react/cjs/react.development";
+import React,{ useContext } from "react";
 import CartContext from "../../store/cart-context";
 import { Modal } from "../UI/Modal";
 import classes from "./Cart.module.css";
